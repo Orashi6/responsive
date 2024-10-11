@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 100%;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.card-wrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.card {
+    background-color: red;
+    width: 300px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+
+body {
+    background-color: aqua;
+}
+@media screen and (max-width:1300px){
+    .card {
+        background-color: rosybrown;
+        width: 270px;
+        height: 270px;
+    
+    }
+    .card-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    body {
+        background-color: snow;
+    }
+}
+@media screen and (max-width:966px) {
+    .card {
+        background-color: yellow;
+        width: 210px;
+        height: 210px;
+        color: black;    
+    }
+    .card-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    body {
+        background-color: orange;
+    }
+}
+@media screen and (max-width:824px){
+    .card {
+        background-color: green;
+        width: 200px;
+        height: 200px;
+    
+    }
+    .card-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    body {
+        background-color: red;
+    }
+}
+@media screen and (max-width:750px){
+    .card {
+        background-color: royalblue;
+        width: 222px;
+        height: 200px;
+    
+    }
+    .card-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    body {
+        background-color: slateblue;
+    }
+}
+@media screen and (max-width:500px){
+    .card {
+        background-color: violet;
+        width:100%;
+       
+    
+    }
+    .card-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    body {
+        background-color: palegreen;
+    }
+}
